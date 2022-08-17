@@ -1,5 +1,5 @@
 # pH Image Analysis
-This code was part of a hydroponics system project I had in an engineering class. My role was the sensor system. My main task was reading/reporting the value of a dipped pH strip. I did this by comparing the RGB values of the pH strip to a color key with all of the color values. This was necessary because differences in lighting can significantly alter the RGB values of different pH's, making reading less accurate. I also wrote code to detect the light level and solution temperature.
+This code was part of a hydroponics system project I had in an engineering class. My role was the sensor system. My main task was reading/reporting the value of a dipped pH strip. I did this by comparing the RGB values of the pH strip to a color key that had the colors of each distinct pH value. This was necessary because differences in lighting can significantly alter the RGB values of different pH's. Comparing them in different lighting conditions rather than from a preset list improves accuracy. I also wrote code to detect the light level and solution temperature.
 
 ![Image of Working Design](https://user-images.githubusercontent.com/96708796/185209064-d6cb1fe0-9c32-4ec2-a373-f7890ea2ecba.jpg)
 
